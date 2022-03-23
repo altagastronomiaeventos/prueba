@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+.navbar {
+    background-color: rgba(235, 14, 180, 0.849);
+}
+
+.navbar .container-fluid a {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.trabajos .container .h1 {
+    color: white;
+}
+
+.trabajos .row img {
+    border: 4px white solid;
+}
+
+.trabajos .row img:hover {
+    
+       transform: scale(110%) rotate(15deg);
+       transition: 1s;
+        overflow: visible;
+        opacity: 1;
+
+   
+}
+
+.trabajos .row p {
+    color: white;
+    
+}
+
+.trabajos .row .btn {
+    background-color: rgb(235, 14, 179);
+    font-size: 2rem;
+    
+    
+
+}
+
+.trabajos .row .btn:hover{
+    background-color: rgb(14, 0, 0);
+    transform: scale(110%);
+}
+
+footer .row .Facebook  :hover{
+    background: #1877f2 ;
+    border-radius: 100%;
+    transform: scale(2.5);
+    transition: 1s;
+}
+
+
+footer .row .Instagram  :hover{
+    background: #e1306c;
+    border-radius: 30%;
+    transform: scale(2.5);
+    transition: 1s;
+}
+
+footer .row .Whatsapp  :hover{
+    background: #4aae20 ;
+    border-radius: 100%;
+    transform: scale(2.5);
+    transition: 1s;
+}
+
+
